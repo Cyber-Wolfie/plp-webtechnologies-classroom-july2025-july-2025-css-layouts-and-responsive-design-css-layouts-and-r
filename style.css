@@ -1,0 +1,132 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f9fcfd;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #fff;
+}
+
+.logo-list {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-style: italic;
+}
+
+.navbar a {
+    text-decoration: solid;
+    color: #333;
+    font-weight: 500;
+}
+
+.login {
+    background-color: #f9fcfd;
+    margin-right: 10px;
+    border: #f0f0f0;
+    border-radius: 2opx;
+}
+
+.signup {
+    background-color: rgb(19, 189, 189);
+    text-decoration-color: #f0f0f0;
+    border: rgb(18, 192, 192);
+    border-radius: 16px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.cta-form {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.cta-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    flex: 1;
+}
+
+.cta-form button {
+    padding: 10px 20px;
+    border: none;
+    background: #0d6efd;
+    color: white;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+.partners span {
+    margin-right: 20px;
+    font-weight: bold;
+    color: #666;
+}
+
+/* Features */
+.features {
+    background: #fff;
+    padding: 50px 10%;
+    margin-top: 40px;
+    border-radius: 12px;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.features-grid div {
+    flex: 1;
+    background: #f9fcfd;
+    padding: 20px;
+    border-radius: 8px;
+}
